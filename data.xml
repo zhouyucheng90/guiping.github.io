@@ -1,0 +1,35 @@
+﻿<?xml version="1.0"?> 
+
+<Banner 
+	bannerWidth="100%"
+	bannerHeight="205"
+
+	transitionType="5"
+	transitionDelayTimeFixed="5" 
+	transitionDelayTimePerWord="0.5"
+	transitionSpeed="5"
+	transitionBlur="no"
+	transitionRandomizeOrder="no"	
+	
+	showTimerClock="yes"
+	showBackButton="no"
+	showNumberButtons="no"
+	showNumberButtonsAlways="no"
+	showNumberButtonsHorizontal="no"
+	showNumberButtonsAscending="yes"
+	autoPlay="yes">
+	
+	<item image="images/pic_1.png" link="#" textBlend="no"></item>
+	<item image="images/pic_2.png" link="#" textBlend="no"></item>
+	<item image="images/pic_3.png" link="#" textBlend="no"></item>
+
+</Banner>
+<!--
+  transitionType--切换动画效果1-5
+  transitionDelayTimeFixed  --切换延时、
+  transitionSpeed --切换速度
+  transitionBlur="yes"  是否模糊
+  transitionRandomizeOrder="no"  是否随机
+  showBackButton="yes" 是否显示返回按钮
+  
+-->

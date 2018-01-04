@@ -1,0 +1,82 @@
+/* CSS Document */
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,blockquote,p{ margin:0; padding:0;}
+body{color:#333;font:12px "\5B8B\4F53",san-serif; width:100%; background:#c8f2ff url(../images/body.png) repeat-x}
+ul, ol { list-style: none;} 
+img,fieldset{vertical-align:top;border:0;}
+h1,h2,h3,h4,h5,h6 {font-size:100%; font-weight:normal;}
+address,cite,code,em,th {font-weight:normal; font-style:normal;}
+input,button,textarea,select{font:100% Arial,''; vertical-align:middle}
+table,td,tr,th{font-size:12px;}
+
+
+.fB{font-weight:bold;}
+.fK{ color:#C03;}
+.f12px{font-size:12px;}
+.f14px{font-size:14px;}
+
+.fl{ float: left;}
+.fr{ float: right;}
+.clear{ clear: both;}
+
+.blank10{ height:10px; line-height:10px; font-size:0; clear:both;overflow:hidden; display:block;}
+.blank15{ height:15px; line-height:15px; font-size:0; clear:both;overflow:hidden; display:block;}
+
+
+.rel{ position:relative;}
+
+.clearfix{*zoom:1;}
+.clearfix:after{display:block; overflow:hidden; clear:both; height:0; visibility:hidden; content:".";}
+
+
+/* 超链接样式*/
+a{color: #333; text-decoration:none;}
+a:hover {color: #e95501; text-decoration:underline;}
+
+
+
+
+
+.layout{width:980px; margin:0 auto}
+
+.home_banner{ min-width:980px; _width:expression((document.documentElement.clientWidth||document.body.clientWidth)<980?"980px":""); height:546px;}
+
+#big_img{ height:185px;}
+#big{ height:150px;}
+
+
+#menu li{ float:left; margin-left:85px;}
+#menu ul{ background:url(../images/menu_b.png) no-repeat right; height:33px; }
+#menu li a{ font-size:0; background:url(../images/menu_bg.png) no-repeat; text-indent:-1999999px}
+#menu li a.m1{ width:64px; height:33px; background-position:0 7px; display:block}
+#menu li a.m2{ width:70px; height:33px; background-position:-152px 7px; display:block}
+#menu li a.m3{ width:62px; height:33px; background-position:-308px 7px; display:block}
+#menu li a.m4{ width:64px; height:33px; background-position:-467px 7px; display:block}
+
+#menu li a:hover{ font-size:0; background:url(../images/menu_bg1.png) no-repeat}
+#menu li a:hover.m1{ width:64px; height:33px; background-position:0 7px; display:block}
+#menu li a:hover.m2{ width:70px; height:33px; background-position:-152px 7px; display:block}
+#menu li a:hover.m3{ width:62px; height:33px; background-position:-308px 7px; display:block}
+#menu li a:hover.m4{ width:64px; height:33px; background-position:-467px 7px; display:block}
+
+
+
+#menu{position:fixed;_position:absolute;z-index:10;bottom:0;right:0;_bottom:auto;_top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||0)));filter:alpha(opacity=100);-moz-opacity:1;opacity:1; height:30px; width:100%; background:url(../images/menu.png) repeat-x;/*兼容的透明样式*/}
+
+*html{background-image:url(about:blank);background-attachment:fixed;}
+
+
+
+/*内容区样式 */
+
+.works_zs dl{ width:317px; float:left;margin-bottom:20px; margin-right:14px}
+.works_zs dl dt{ float:left;background:url(../images/touying.png) no-repeat bottom ; height:162px; }
+.works_zs dl dt img{ border:1px solid #99d7eb; display:block; background-repeat:no-repeat; padding:5px; background:#fff}
+.works_zs dl dd{ height:40px; overflow:hidden;  margin-top:5px; margin-left:4px;float:left}
+
+
+
+
+.bottom_banner{ height:450px;min-width:980px; _width:expression((document.documentElement.clientWidth||document.body.clientWidth)<980?"980px":""); overflow:hidden; position:relative}
+.xiangpian{ position:absolute;width:300px;top:300px; right:250px;}
+.xiangpian li{ width:65px; height:65px; background:#fff; margin-left:10px; float:left; display:inline}

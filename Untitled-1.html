@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>无标题文档</title>
+</head>
+
+<p>您好 ，今天是<!-- 时间代码开始 2005-11-11 星期几 -->
+<SCRIPT language=JavaScript>
+today=new Date();
+function initArray(){
+this.length=initArray.arguments.length
+for(var i=0;i<this.length;i++)
+this[i+1]=initArray.arguments[i]}
+var d=new initArray("星期日","星期一","星期二","星期三","星期四","星期五","星期六");
+document.write("<font color=#0099ff> ",today.getYear(),"年",today.getMonth ()+1,"月",today.getDate(),"日 ",d[today.getDay()+1],"</font>" );
+</SCRIPT>
+<!-- 时间代码结束 2005-11-11 星期几 --> </p>
+<SPAN id=span_dt_dt></SPAN>
+<SCRIPT language=javascript>
+<!--
+//document.write("");
+function show_date_time(){
+window.setTimeout("show_date_time()", 1000);
+BirthDay=new Date("12/12/2012 00:00:00");//这个日期是可以修改的
+today=new Date();
+timeold=(BirthDay.getTime()-today.getTime());
+sectimeold=timeold/1000
+secondsold=Math.floor(sectimeold);
+msPerDay=24*60*60*1000
+e_daysold=timeold/msPerDay
+daysold=Math.floor(e_daysold);
+e_hrsold=(e_daysold-daysold)*24;
+hrsold=Math.floor(e_hrsold);
+e_minsold=(e_hrsold-hrsold)*60;
+minsold=Math.floor((e_hrsold-hrsold)*60);
+seconds=Math.floor((e_minsold-minsold)*60);
+span_dt_dt.innerHTML="距离活动还有<align=center><p><font color=#A22900><p><font   size=4>"+daysold+"天"+hrsold+"小时"+minsold+"分"+seconds+"秒"+"<br></font><br></font>" ;  // 这里你自己改。就是倒计时的样式，字体大小size=4 颜色是color
+}
+show_date_time();
+//-->
+</SCRIPT>
+<body>
+</body>
+</html>

@@ -1,0 +1,92 @@
+/* CSS Document */
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,blockquote,p{ margin:0; padding:0; }
+body{color:#333;font:12px "\5B8B\4F53",san-serif; width:100%; background:#000 }
+ul, ol { list-style: none;} 
+img,fieldset{vertical-align:top;border:0;}
+h1,h2,h3,h4,h5,h6 {font-size:100%; font-weight:normal;}
+address,cite,code,em,th {font-weight:normal; font-style:normal;}
+input,button,textarea,select{font:100% Arial,''; vertical-align:middle}
+table,td,tr,th{font-size:12px;}
+
+a{text-decoration:none;}
+a:hover { text-decoration:underline;}
+
+
+
+#cont{ width:910px; height:540px; background:#181818; position:absolute; top:50%; left:50%; margin-left:-455px; margin-top:-270px;}
+
+	#screen { width:570px; height:540px; position:absolute; right:0;overflow: auto; }
+	
+	.content {position:relative;color: #fff; padding:20px;}
+	
+    .cds_scrollbar {position: absolute;background: #666;right: 0px;cursor: pointer;}/*滚动条。拖动*/
+	
+	.cds_scrollbar_over {background: #000 ;}/*滚动条拖动鼠标放上去效果*/
+	
+	
+	
+	.cds_scrollbar_pushed {background: #fff }/*滚动条拖动 鼠标点击效果*/
+	
+	.cds_track {position: absolute;background: #222;right: -1px;	top: 0px;height: 100%;cursor: pointer; }/*滚动条背景效果*/
+	
+
+   @ .cds_up {position: absolute;background: #626262;right: 0px;top: 0px;cursor: pointer;/*滚动条上面小点*/}
+	
+	@ .cds_down {position: absolute;background:#626262;right: 0px;bottom: 0px;cursor: pointer;/*滚动条上面下面小点*/}
+
+
+
+.content h2{ font-weight:bold; font-size:20px; padding:10px; }
+.content span{ font-weight:bold; font-size:20px; padding:10px;}
+
+.content li{ color:#999299; font-size:13px; line-height:24px;padding-left:10px;}
+
+
+.right_pic{ width:344px; height:533px; float:left; border:3px solid #666}
+
+
+.bannerBox {POSITION: relative;}
+#big_img {HEIGHT: 533px}
+
+#small_img {POSITION: absolute; left:0px;TOP: -80px; width:100%}
+#small_imgs {WIDTH: 600px; margin:0 auto}
+#small_imgs a {PADDING-LEFT: 3px; PADDING-RIGHT: 3px; FLOAT: left;}
+
+#small_imgs a .active {background:#FC0;}
+
+
+#big_img img{ width:344px; height:auto}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Contact{ width:910px; height:540px; background:#181818; position:absolute; top:50%; left:50%; margin-left:-455px; margin-top:-270px; color:#999299;}
+#Contact h2{ font-weight:bold; font-size:20px;color:#fff}
+
+#Contact .left{ width:365px; height:500px; float:left; padding:20px;}
+#Contact .left li{ font-size:13px; line-height:24px;}
+#Contact .left p.Emall a{ color:#fff;}
+#Contact .right{ width:450px; height:500px; float:right; padding:20px;}
+#Contact .right ul{ padding-bottom:20px;}
+#Contact .right li{  line-height:30px; font-size:13px;}
+.input_text{ width:236px; height:20px; border:1px solid #1b161a; line-height:20px; padding-left:5px;}
+#Contact .right strong{ font-weight:bold; font-size:20px;color:#fff}
+#Contact .right dd{ margin-bottom:5px;}
+
+
